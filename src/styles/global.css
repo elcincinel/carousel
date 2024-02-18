@@ -1,0 +1,35 @@
+carousel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+  }
+  
+  img {
+    border-radius: 10px;
+    width: 450px;
+    height: 500px;
+  }
+  
+  .carousel-buttons {
+    text-align: center;
+  }
+  button {
+    padding: 10px 40px;
+    margin: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:focus {
+    outline: none;
+  }
